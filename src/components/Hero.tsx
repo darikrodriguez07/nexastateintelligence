@@ -27,7 +27,7 @@ const Hero = () => {
 
           <ScrollReveal delay={200}>
             <p className="text-primary-foreground/80 text-lg sm:text-xl max-w-lg mb-10 leading-relaxed font-light">
-              CRM con inteligencia artificial que captura, cualifica y nutre leads automáticamente. Diseñado para el mercado inmobiliario español.
+              Sistema mediante inteligencia artificial que clasifica, impulsa a la compra y nutre clientes automáticamente. Diseñado para el mercado inmobiliario.
             </p>
           </ScrollReveal>
 

@@ -9,7 +9,7 @@ const Footer = () => {
             <a href="#" className="hover:text-primary-foreground/80 transition-colors">Legal</a>
             <a href="#" className="hover:text-primary-foreground/80 transition-colors">Contacto</a>
           </div>
-          <p className="text-xs text-primary-foreground/40">© 2026 InmoAI. Todos los derechos reservados.</p>
+          <p className="text-xs text-primary-foreground/40">© 2026 NEXA State Intelligence. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

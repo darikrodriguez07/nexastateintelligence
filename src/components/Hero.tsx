@@ -34,7 +34,7 @@ const Hero = () => {
           <ScrollReveal delay={300}>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="xl" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-lg shadow-secondary/25">
-                Solicitar Demo Gratis
+                Agendar Reunión Gratuita
               </Button>
               <Button variant="hero-outline" size="xl" className="border-secondary/60 text-secondary hover:bg-secondary hover:text-secondary-foreground">
                 Ver Cómo Funciona

@@ -29,7 +29,7 @@ const Navbar = () => {
           <a href="#funciones" className="block text-sm text-muted-foreground" onClick={() => setOpen(false)}>Funciones</a>
           <a href="#proceso" className="block text-sm text-muted-foreground" onClick={() => setOpen(false)}>Proceso</a>
           <a href="#resultados" className="block text-sm text-muted-foreground" onClick={() => setOpen(false)}>Resultados</a>
-          <Button variant="hero" size="default" className="w-full">Solicitar Demo</Button>
+          <Button variant="hero" size="default" className="w-full">Agendar Reunión</Button>
         </div>
       )}
     </nav>

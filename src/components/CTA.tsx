@@ -15,7 +15,7 @@ const CTA = () => {
               Agenda una demo de 20 minutos y descubre cuántas horas puede ahorrar tu equipo cada semana con nuestro CRM inteligente.
             </p>
             <Button variant="hero" size="xl" className="gap-3">
-              Solicitar Demo Gratis <ArrowRight className="w-5 h-5" />
+              Agendar Reunión Gratuita <ArrowRight className="w-5 h-5" />
             </Button>
             <p className="text-xs text-muted-foreground mt-5">Sin compromiso · Configuración en 14 días · Soporte en español</p>
           </div>

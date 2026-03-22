@@ -5,6 +5,7 @@ import HowItWorks from "@/components/HowItWorks";
 import Results from "@/components/Results";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import Chatbot from "@/components/Chatbot";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <Results />
       <CTA />
       <Footer />
+      <Chatbot />
     </div>
   );
 };

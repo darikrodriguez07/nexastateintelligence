@@ -4,23 +4,27 @@ import { ListCheck, Zap, Settings, Phone } from "lucide-react";
 const features = [
   {
     icon: Phone,
-    title: "Auditoria personalizada",
+    title: "Auditoria + demo gratis",
     desc: "Estudiamos tu negocio y te mostramos una versión simple personalizada de cómo el sistema capta clientes desde tu web, guarda sus datos y agenda citas automáticamente.",
-  },
-  {
-    icon: ListCheck,
-    title: "Gestión de clientes",
-    desc: "Instalamos un sistema que responde automáticamente a tus clientes, recoge sus datos y los clasifica según sus intereses para ayudarte a gestionar mejor cada oportunidad.",
+    price: "GRATIS"
   },
   {
     icon: Zap,
-    title: "Sistema completo",
+    title: "Sistema completo de automatización",
     desc: "Instalamos un sistema completo que capta clientes, responde automáticamente, organiza sus datos, agenda citas y realiza seguimiento por WhatsApp, para que tú solo te centres en cerrar ventas.",
+    price: "1000€"
+  },
+  {
+    icon: ListCheck,
+    title: "Automatización básica de clientes",
+    desc: "Instalamos un sistema que responde automáticamente a tus clientes, recoge sus datos y los clasifica según sus intereses para ayudarte a gestionar mejor cada oportunidad.",
+    price: "200€"
   },
   {
     icon: Settings,
     title: "Mantenimiento",
-    desc: "Nos encargamos de que tu sistema funcione siempre correctamente, realizando ajustes, mejoras y soporte continuo para que sigas captando clientes sin preocuparte por lo técnico."
+    desc: "Nos encargamos de que tu sistema funcione siempre correctamente, realizando ajustes, mejoras y soporte continuo para que sigas captando clientes sin preocuparte por lo técnico.",
+    price: "0€"
   },
 ];
 
@@ -41,17 +45,76 @@ const Features = () => {
         </ScrollReveal>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {features.map((f, i) => (
-            <ScrollReveal key={f.title} delay={i * 80} animation="scale">
-              <div className="group bg-background rounded-xl p-7 shadow-sm shadow-primary/5 hover:shadow-md hover:shadow-primary/10 transition-shadow duration-300">
-                <div className="w-11 h-11 rounded-lg bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/15 transition-colors">
-                  <f.icon className="w-5 h-5 text-primary" />
+          {features.map((f, i) => {
+            const isHighTicket = i === 1;
+            const isMaintenance = i === 3;
+
+            return (
+              <ScrollReveal key={f.title} delay={i * 80} animation="scale">
+                <div
+                  className={`group rounded-xl p-7 transition-all duration-300
+                    ${isHighTicket 
+                      ? "bg-primary text-white shadow-lg scale-105 border border-primary/30" 
+                      : isMaintenance 
+                        ? "bg-muted/40 opacity-80 hover:opacity-100" 
+                        : "bg-background shadow-sm shadow-primary/5 hover:shadow-md hover:shadow-primary/10"
+                    }
+                  `}
+                >
+                  <div
+                    className={`w-11 h-11 rounded-lg flex items-center justify-center mb-5 transition-colors
+                      ${isHighTicket 
+                        ? "bg-white/20" 
+                        : isMaintenance 
+                          ? "bg-muted" 
+                          : "bg-primary/10 group-hover:bg-primary/15"
+                      }
+                    `}
+                  >
+                    <f.icon
+                      className={`w-5 h-5 ${
+                        isHighTicket ? "text-white" : "text-primary"
+                      }`}
+                    />
+                  </div>
+
+                  {isHighTicket && (
+                    <div className="mb-3">
+                      <span className="text-xs font-semibold bg-white/20 px-3 py-1 rounded-full">
+                        Más recomendado
+                      </span>
+                    </div>
+                  )}
+
+                  <h3
+                    className={`font-serif text-lg mb-2 ${
+                      isHighTicket ? "text-white" : "text-foreground"
+                    }`}
+                  >
+                    {f.title}
+                  </h3>
+
+                  <p
+                    className={`text-sm font-semibold mb-2 ${
+                    isHighTicket ? "text-white/90" : "text-muted-foreground"
+                    }`}
+                  >
+                    {f.price}
+                  </p>
+
+                  <p
+                    className={`text-sm leading-relaxed ${
+                      isHighTicket
+                        ? "text-white/90"
+                        : "text-muted-foreground"
+                    }`}
+                  >
+                    {f.desc}
+                  </p>
                 </div>
-                <h3 className="font-serif text-lg text-foreground mb-2">{f.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">{f.desc}</p>
-              </div>
-            </ScrollReveal>
-          ))}
+              </ScrollReveal>
+            );
+          })}
         </div>
       </div>
     </section>

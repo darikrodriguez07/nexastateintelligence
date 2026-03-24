@@ -176,7 +176,7 @@ const Chatbot = () => {
               <MessageCircle className="w-5 h-5" />
             </div>
             <div>
-              <p className="font-semibold text-sm">Asistente de NEXA Inmobiliary</p>
+              <p className="font-semibold text-sm"><p className="font-semibold text-sm">Asistente de Nexa</p></p>
               <p className="text-xs text-primary-foreground/60">En línea</p>
             </div>
           </div>

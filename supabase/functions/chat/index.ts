@@ -6,7 +6,7 @@ const corsHeaders = {
     "authorization, x-client-info, apikey, content-type, x-supabase-client-platform, x-supabase-client-platform-version, x-supabase-client-runtime, x-supabase-client-runtime-version",
 };
 
-const SYSTEM_PROMPT = `Eres el asistente virtual de NEXA Inmo Intelligence, una agencia de automatización con IA para inmobiliarias en España.
+const SYSTEM_PROMPT = `Eres el asistente virtual de NEXA Inmobiliary Automatization, una agencia de automatización con IA para inmobiliarias en España.
 
 Tu rol:
 - Responder preguntas sobre los servicios de automatización CRM para inmobiliarias

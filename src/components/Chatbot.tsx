@@ -10,7 +10,7 @@ type Msg = { role: "user" | "assistant"; content: string };
 const WELCOME: Msg = {
   role: "assistant",
   content:
-    "¡Hola! 👋 Soy el asistente de NEXA Inmobiliary Intelligence. ¿En qué puedo ayudarte? Puedo contarte sobre nuestros servicios de automatización para inmobiliarias o ayudarte a agendar una reunión.",
+    "¡Hola! 👋 Soy el asistente de NEXA Inmobiliary Automatization. ¿En qué puedo ayudarte? Puedo contarte sobre nuestros servicios de automatización para inmobiliarias o ayudarte a agendar una reunión.",
 };
 
 async function streamChat({
@@ -176,7 +176,7 @@ const Chatbot = () => {
               <MessageCircle className="w-5 h-5" />
             </div>
             <div>
-              <p className="font-semibold text-sm">Asistente de NEXA</p>
+              <p className="font-semibold text-sm">Asistente de NEXA Inmobiliary</p>
               <p className="text-xs text-primary-foreground/60">En línea</p>
             </div>
           </div>

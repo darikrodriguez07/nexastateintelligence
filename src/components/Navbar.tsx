@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto flex items-center justify-between h-16 px-6">
         <a href="#" className="font-serif text-xl text-primary tracking-tight">
-          NEXA <span className="font-sans text-sm font-medium tracking-widest uppercase text-muted-foreground">State Intelligence</span>
+          NEXA <span className="font-sans text-sm font-medium tracking-widest uppercase text-muted-foreground">Inmobiliary Intelligence</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">

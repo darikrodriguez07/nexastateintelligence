@@ -6,19 +6,19 @@ const steps = [
     icon: Search,
     num: "01",
     title: "Analizamos tu flujo actual",
-    desc: "Estudiamos cómo captáis y gestionáis leads para detectar cuellos de botella y oportunidades de mejora.",
+    desc: "Estudiamos cómo captáis y gestionáis clientes para detectar cuellos de botella y oportunidades de mejora.",
   },
   {
     icon: Settings,
     num: "02",
-    title: "Configuramos tu CRM con IA",
+    title: "Automatizamos tu inmobiliaria al 100%",
     desc: "Integramos la automatización con tus portales inmobiliarios, web, WhatsApp y canales actuales.",
   },
   {
     icon: Rocket,
     num: "03",
-    title: "Tu agencia funciona en automático",
-    desc: "En menos de 2 semanas tu equipo gestiona el triple de leads sin aumentar la plantilla.",
+    title: "Tu agencia genera dinero sola",
+    desc: "En poco tiempo tu inmobiliaria gestiona todos los clientes, tu solo cierras.",
   },
 ];
 
@@ -30,7 +30,7 @@ const HowItWorks = () => {
           <div className="text-center max-w-xl mx-auto mb-16">
             <span className="text-sm font-semibold tracking-widest uppercase text-muted-foreground">Proceso</span>
             <h2 className="text-3xl lg:text-4xl text-foreground mt-3 mb-4">
-              De la primera llamada a resultados en 14 días
+              De la primera llamada a resultados reales
             </h2>
           </div>
         </ScrollReveal>

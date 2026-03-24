@@ -10,7 +10,7 @@ type Msg = { role: "user" | "assistant"; content: string };
 const WELCOME: Msg = {
   role: "assistant",
   content:
-    "¡Hola! 👋 Soy el asistente de NEXA State Intelligence. ¿En qué puedo ayudarte? Puedo contarte sobre nuestros servicios de automatización para inmobiliarias o ayudarte a agendar una reunión.",
+    "¡Hola! 👋 Soy el asistente de NEXA Inmobiliary Intelligence. ¿En qué puedo ayudarte? Puedo contarte sobre nuestros servicios de automatización para inmobiliarias o ayudarte a agendar una reunión.",
 };
 
 async function streamChat({

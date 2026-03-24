@@ -2,9 +2,9 @@ import ScrollReveal from "@/components/ScrollReveal";
 
 const stats = [
   { value: "147", suffix: "+", label: "Inmobiliarias automatizadas" },
-  { value: "2.4", suffix: "M", label: "Leads gestionados" },
+  { value: "2.4", suffix: "M", label: "Clientes gestionados" },
   { value: "42", suffix: "%", label: "Aumento conversión media" },
-  { value: "< 30", suffix: "s", label: "Tiempo medio de respuesta" },
+  { value: "< 15", suffix: "s", label: "Tiempo medio de respuesta" },
 ];
 
 const Results = () => {

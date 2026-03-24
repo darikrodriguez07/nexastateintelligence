@@ -153,6 +153,6 @@
 .delay-400 { animation-delay: 320ms; }
 .delay-500 { animation-delay: 400ms; }
 
-#lovable-badge-cta {
+[id^="lovable-badge"] {
   display: none !important;
 }

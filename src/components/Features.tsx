@@ -24,7 +24,7 @@ const features = [
     icon: Settings,
     title: "Mantenimiento",
     desc: "Nos encargamos de que tu sistema funcione siempre correctamente, realizando ajustes, mejoras y soporte continuo para que sigas captando clientes sin preocuparte por lo técnico.",
-    price: "0€"
+    price: "100€/mes"
   },
 ];
 

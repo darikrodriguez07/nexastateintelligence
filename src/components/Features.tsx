@@ -1,6 +1,5 @@
 import ScrollReveal from "@/components/ScrollReveal";
 import { ListCheck, Zap, Settings, Phone } from "lucide-react";
-import React from "react";
 
 const features = [
   {
@@ -94,6 +93,13 @@ const Features = () => {
                     <div className="mb-3">
                       <span className="text-xs font-semibold bg-white/20 px-3 py-1 rounded-full">
                         Más popular
+                      </span>
+                    </div>
+                  )}
+                  {isMaintenance && (
+                    <div className="mb-3">
+                      <span className="text-xs font-semibold bg-white/20 px-3 py-1">
+                        Opcional
                       </span>
                     </div>
                   )}

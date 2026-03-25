@@ -27,7 +27,7 @@ const Hero = () => {
 
           <ScrollReveal delay={200}>
             <p className="text-primary-foreground/80 text-lg sm:text-xl max-w-lg mb-10 leading-relaxed font-light">
-              Sistema mediante inteligencia artificial que clasifica, impulsa a la compra y nutre clientes automáticamente. Diseñado para el mercado inmobiliario.
+              ¿Sientes que pasas más tiempo respondiendo mensajes y organizando papeles que cerrando ventas? En NEXA, hacemos que tu negocio trabaje para ti, y no al revés.
             </p>
           </ScrollReveal>
 

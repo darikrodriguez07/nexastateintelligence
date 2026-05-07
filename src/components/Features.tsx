@@ -4,27 +4,23 @@ import { ListCheck, Zap, Settings, Phone } from "lucide-react";
 const features = [
   {
     icon: Phone,
-    title: "Auditoria + demo gratis",
-    desc: "Estudiamos tu negocio y te mostramos una versión simple personalizada de cómo el sistema capta clientes desde tu web, guarda sus datos y agenda citas automáticamente.",
-    price: "GRATIS"
+    title: "Auditoria + demo GRATIS",
+    desc: "Estudiamos tu negocio y te mostramos una versión simple personalizada de cómo el sistema capta clientes desde tu web, guarda sus datos y agenda citas automáticamente."
   },
   {
     icon: Zap,
     title: "Sistema completo de automatización",
-    desc: "Instalamos un sistema completo que clasifica tus clientes, agenda citas automaticas, añade recordatorios, inlcuye notificaciones personalizadas para tus propios agentes y te muestra en que etapa se encuentra cada cliente. Además, busca clientes para rellenar huecos en caso de que un cliente cancele una cita.",
-    price: "1000€"
+    desc: "Instalamos un sistema completo que clasifica tus clientes, agenda citas automaticas, añade recordatorios, inlcuye notificaciones personalizadas para tus propios agentes y te muestra en que etapa se encuentra cada cliente. Además, busca clientes para rellenar huecos en caso de que un cliente cancele una cita."
   },
   {
     icon: ListCheck,
     title: "Automatización básica de clientes",
-    desc: "Instalamos un sistema que incluye una base de datos de clientes, recordatorios a tus clientes y agenda citas automaticamente.",
-    price: "400€"
+    desc: "Instalamos un sistema que incluye una base de datos de clientes, recordatorios a tus clientes y agenda citas automaticamente."
   },
   {
     icon: Settings,
     title: "Soporte",
-    desc: "Los servicios incluyen un soporte mensual para no sentirte solo ante nuestro sistema, también incluye una clase en la que explicamos sencillamente como funciona para que no quede ninguna duda.",
-    price: "100€/mes"
+    desc: "Los servicios incluyen un soporte mensual para no sentirte solo ante nuestro sistema, también incluye una clase en la que explicamos sencillamente como funciona para que no quede ninguna duda."
   },
 ];
 
